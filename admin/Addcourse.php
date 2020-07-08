@@ -36,7 +36,7 @@ function staff_list($conn)
 
 <head>
   <title>Add New Course</title>
-  <link rel="icon" href="../img/L1.jpeg">
+  <link rel="icon" href="../img/L1.png">
     <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
 
     <!-- Bootstrap core CSS -->

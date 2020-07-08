@@ -33,7 +33,7 @@ function faculty_list($conn)
 
 <head>
   <title>Create New Account</title>
-   <link rel="icon" href="img/L1.jpeg">
+   <link rel="icon" href="img/L1.png">
    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
 
     <!-- Bootstrap core CSS -->
@@ -104,7 +104,21 @@ function faculty_list($conn)
   </script>
 
 <!-------------------------------Form Registerd--------------------------------------------------->
+        
+        <div class="row">
 
+          <div class="col-lg-12">
+            <div class="panel panel-success">
+              <div class="panel-heading">
+                <h3 class="panel-title"><i class="fas fa-user-plus"></i> Crate new account </h3>
+              </div>
+              <div class="panel-body">
+                <div id="morris-chart-area"></div>
+
+
+          <div class="col-lg-12">
+            <h2>Craete New Account </h2>
+            </div>
         <form class="login" action="#" method="post" onsubmit="return checking()">
         <div class="has-success">
         <label> Name</label>
@@ -232,6 +246,11 @@ function faculty_list($conn)
     </form>
 
   </div>
+</div>
+</div>
+</div>
+</div>
+
   <br /><br /><br /><br/><br/>
   <!-- JavaScript -->
     <script src="js/jquery-1.10.2.js"></script>
